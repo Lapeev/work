@@ -1,0 +1,254 @@
+header {
+    box-shadow:  0 0 8px 0 rgba(0,0,0,.2);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    background: #fff;
+}
+.blue {
+    background: #5796ff;
+    height: 66px;
+    padding-top: 8px;
+    position: relative;
+}
+.logo {
+    text-decoration: none;
+    text-align: justify;
+    position: relative;
+    display: block;
+    margin-left: 71px;
+}
+.logo img {
+    position: absolute;
+    left: -80px;
+    display: block;
+    height: auto;
+    width: 81px;
+}
+.logo h2 {
+    font-size: 13px;
+    color: #fff;
+    white-space: nowrap;
+}
+.logo h2::first-line {
+    font-size: 23px;
+}
+.nav {
+    position: absolute;
+    right: 0;
+    top: 133px;
+    transition: all 0.4s ease;
+    z-index: 4;
+    min-height: 413px;
+    display: flex;
+    flex-direction: column;
+    background: #f4f3f3;
+    width: 0px;
+    list-style: none;
+    opacity: 0;
+    overflow: hidden;
+}
+.item {
+    min-height: 66px;
+    border-bottom: 1px solid #b8b8b8;
+    position: relative;
+}
+.item:last-child {
+    opacity: .5;
+    font-size: 11px;
+    text-align: center;
+    padding-top: 65px;
+    height: 106px;
+    border-bottom: 0 solid #000;
+}
+.item:last-child::first-letter {
+    text-transform: uppercase;
+}
+.i_item {
+    height: 66px;
+    width: 100%;
+    opacity: 0;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+}
+.input , .aitem {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 66px;
+    font-size: 24px;
+    color: #2e2e2e;
+    line-height: 66px;
+}
+.podnav {
+   display: none;
+   list-style: none;
+   height: 200px;
+   width: 83%;
+   margin: 0 auto;
+   position: absolute;
+   top: 66px;
+   left: 40px;
+}
+.poditem {
+    height: 40px;
+    background: #fff;
+    width: 83%;
+    color: #1d1d1d;
+    font-size: 20px;
+    line-height: 40px;
+    border-bottom: 1px solid #b8b8b8;
+}
+.poditem:last-child {
+    border-bottom: 0 solid #000;
+}
+.poditem a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #1d1d1d;
+    padding-left: 15px;
+}
+.white {
+    height: 66px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.tel {
+    display: none;
+}
+.office {
+    display: none;
+}
+.webs {
+    display: flex;
+    width: 154px;
+    margin: 0 auto;
+    list-style: none;
+    justify-content: space-between;
+}
+.webitem div {
+    height: 38px;
+    width: 38px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.w1 div {
+    background-image: url(../../img/icons/fb.png)
+}
+.w2 div {
+    background-image: url(../../img/icons/tel.png)
+}
+.w3 div {
+    background-image: url(../../img/icons/youtube.png);
+}
+.checkbox-toggle {
+    height: 66px;
+    width: 66px;
+    opacity: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 66px;
+    right: 0;
+    position: absolute;
+    z-index: 2;
+}
+.checkbox-toggle:checked + .hamburger > div {
+    -webkit-transform: rotate(135deg);
+            transform: rotate(135deg);
+}
+.checkbox-toggle:checked + .hamburger > div:before,
+.checkbox-toggle:checked + .hamburger > div:after {
+    top: 0;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+}
+.checkbox-toggle:checked + .hamburger > div:after {
+    opacity: 0;
+}
+.checkbox-toggle:checked:hover + .hamburger > div {
+    -webkit-transform: rotate(225deg);
+            transform: rotate(225deg);
+}
+.checkbox-toggle:checked ~ .nav {
+    opacity: 1;
+    width: 100%;
+}
+.checkbox-toggle:checked ~ .nav>li>div>p , .checkbox-toggle:checked ~ .nav>li>a {
+    padding-left: 40px;
+}
+.i_item:checked + .font>p {
+    background: #8cadc7;
+    color: #fff;
+}
+.i_item:checked + .font {
+    height: 285px;
+}
+.checkbox-toggle:checked + .hamburger {
+    background: #8cadc7;
+    height: 67px;
+}
+.checkbox-toggle:checked + .hamburger>div {
+    background: #fff;
+}
+.checkbox-toggle:checked + .hamburger>div:before {
+    background: #fff;
+}
+.hamburger {
+    position: absolute;
+    top: 66px;
+    right: 0;
+    z-index: 1;
+    width: 66px;
+    height: 66px;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hamburger > div {
+    position: relative;
+    flex: none;
+    width: 80%;
+    height: 3px;
+    background: #5796ff;
+    transition: all 0.4s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hamburger > div:before,
+.hamburger > div:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: inherit;
+    transition: all 0.4s ease;
+}
+.hamburger > div:after {
+    top: 10px;
+}
+.input::first-letter , .aitem::first-letter {
+    text-transform: uppercase;
+}
+.i_item:checked ~ .podnav {
+    display: flex;
+    flex-direction: column;
+    z-index: 5;     
+}
+.poditem:active , .poditem:hover {
+      background: #8cadc7;
+}
+.aitem:active {
+      background: #8cadc7;
+}

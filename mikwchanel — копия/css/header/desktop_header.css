@@ -1,0 +1,155 @@
+@media only screen and (min-width: 1170px) {
+    .blue {
+        height: 77px;
+        padding-top: 0;
+    }
+    .container {
+        position: relative;
+        width: 1170px;
+        margin: 0 auto;
+        height: 77px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo {
+        margin-left: 101px;
+        position: relative;
+        width: 300px;
+    }
+    .logo img {
+        left: -119px;
+        top: -13px;
+        width: 109px;
+    }
+    .logo h2 {
+        font-size: 17px;
+    }
+    .logo h2::first-line {
+        font-size: 28px;
+    }
+    .checkbox-toggle {
+        display: none;
+    }
+    .hamburger {
+        display: none;
+    }
+    .webs {
+        transform: translate(-70px, 0);
+    }
+    .nav {
+        position: static;
+        width: 770px;
+        overflow: visible;
+        min-height: 0;
+        height: 77px;
+        flex-direction: row;
+        justify-content: space-between;
+        background: transparent;
+        opacity: 1;
+        align-items: center;
+    }
+    .item {
+        width: auto;
+        height: 77px;
+        border: none;
+        min-height: 0;
+        position: relative;
+        cursor: pointer;
+    }
+    .item:hover {
+        background: #8cadc7;
+        box-shadow:  0 0 8px 0 rgba(0,0,0,.2);
+    }
+    .item:nth-child(n+5) {
+        display: none;
+    }
+    .i_item {
+        display: none;
+    }
+    .input , .aitem {
+        position: static;
+        width: inherit;
+        height: inherit;
+        font-size: 18px;
+        color: #fff;
+        line-height: 77px;
+        text-align: center;
+        white-space: nowrap;
+    }
+    .item:first-child .input {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .item:nth-child(2) .input {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .item:nth-child(3) {
+        width: 185px;
+    }
+    .item:nth-child(4) {
+        width: 210px;
+    }
+    .aitem {
+        display: block;
+        margin: 0 auto;
+    }
+    .podnav {
+        top: 77px;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        box-shadow: 0 3px 8px 0 rgba(0,0,0,.2);
+    }
+    .item:hover>.podnav {
+        display: flex;
+        flex-direction: column;
+    }
+    .poditem {
+        width: 100%;
+    }
+    .poditem a {
+        font-size: 15px;
+        display: block;
+        margin: 0 auto;
+        padding-left: 10px;
+    }
+    .white {
+        width: 1170px;
+        height: 77px;
+        margin: 0 auto;
+    }
+    .tel {
+        display: block;
+        margin-left: 101px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .office {
+        display: flex;
+        background: #b8cddd;
+        width: 178px;
+        justify-content: space-around;
+        height: 40px;
+        align-items: center;
+        border-radius: 3px;
+        margin-right: 7px;
+    }
+    .officeitem {
+        width: 33%;
+        height: 100%;
+        border-radius: 3px;
+    }
+    .officeitem>a {
+        text-align: center;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    .officeitem:hover {
+        background: #236294;
+    }
+}

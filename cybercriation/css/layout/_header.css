@@ -1,0 +1,41 @@
+.header {
+    height: 100vh;
+    background: url(../../img/background/background_header.jpg) center round;
+}
+.header__outer {
+    padding-top: 19px;
+    margin-bottom: 32vh;
+}
+.header__navs {
+    justify-content: flex-end;
+}
+.header__link {
+    font-size: 1rem;
+    color: #ffffff;
+    padding: 0;
+    margin-left: 13px;
+    margin-right: 13px;
+    border-bottom: 1px solid transparent;
+}
+.header__link:first-child {
+    margin-left: 0;
+}
+.header__link_hover:hover {
+    border-bottom: 1px solid #09b2d7;
+    color: #ffffff;
+}
+.header__h1 {
+    font-size: 5.5rem;
+    color: #ffffff;
+    text-align: right;
+    white-space: nowrap;
+}
+.header__team {
+    text-align: end;
+    font-size: 2.5rem;
+    color: #09b2d7;
+    opacity: 0.75;
+    transform: translate(0, -30%);
+}
+
+

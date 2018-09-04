@@ -1,0 +1,36 @@
+footer {
+    height: 120px;
+    background: #5796ff;
+    font-size: 7px;
+    color: #fff;
+    width: 100vw;
+ }
+ .footblock:not(:last-child) {
+     display: none;
+ }
+ .footh {
+     display: none;
+ }
+ .fwebs {
+     display: none;
+ }
+ 
+ .footblock {
+     display: flex;
+     flex-direction: row-reverse;
+     height: 90px;
+     padding-top: 23px;
+     justify-content: space-between;
+     width: 300px;
+     margin: 0 auto;
+ }
+ .worktime {
+     text-align: right;
+ }
+ .end {
+     text-align: center;
+     min-width: 300px;
+ }
+ .end:last-child {
+     font-size: 6px;
+ }

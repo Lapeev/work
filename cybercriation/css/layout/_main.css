@@ -1,0 +1,185 @@
+.office {
+    height: 100vh;
+    background: url(../../img/background/elements/element.png)  0% 0% no-repeat, 
+    url(../../img/background/elements/element.png)  100% 100% no-repeat, 
+    #dedede;
+}
+.office_grid {
+    height: 50vh;
+}
+.office__header {
+    font-size: 2.3rem;
+}
+office__text {
+    font-size: 1rem;
+}
+.ofiice__img {
+    display: block;
+    width: 100%;
+    max-height: 40vh;
+}
+.office__link {
+    display: inline-block;
+    border-bottom: 2px solid #bbbaba;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.office__link_hover:hover {
+    text-decoration: none;
+    color: #2e2e2e;
+}
+.office__text_outer {
+    margin-bottom: 38px;
+}
+.office__link_outer {
+    margin-left: 43px;
+}
+.office__button {
+    font-size: 1rem;
+}
+.messages {
+    height: 100vh;
+    background: url(../../img/background/tel-in-hands.jpg) center round;
+}
+.messages__header {
+    color: #ffffff;
+    font-size: 2.75rem;
+    white-space: nowrap;
+}
+.messages__header_outer {
+    margin-bottom: 55px;
+}
+.messages__text {
+    color: #ffffff;
+    font-size: 1.3rem;
+    display: inline-block;
+}
+.messages__button {
+    font-size: 1rem;
+}
+.messages__list {
+    white-space: nowrap;
+}
+.messages__list::before {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background: #09b2d7;
+    content: '';
+    margin-right: 5px;
+}
+.messages__lists_outer {
+    margin-bottom: 104px;
+}
+.handling {
+    height: 100vh;
+    background: url(../../img/background/elements/element.png)  0% 0% no-repeat, 
+    url(../../img/background/elements/element.png)  100% 100% no-repeat, 
+    #dedede;
+}
+.handling__img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.handling__header {
+    font-size: 2.2rem;
+}
+.handling__header_outer {
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+.handling__text_outer {
+    margin-bottom: 50px;
+}
+.handling__button {
+    font-size: 1rem;
+}
+.device {
+    height: 100vh;
+    background: url(../../img/background/2tels-in-hands.jpg) center round;
+}
+.device__header {
+    font-size: 2.2rem;
+    color: #ffffff;
+    text-align: center;
+    white-space: nowrap;
+}
+.device__header_outer {
+    margin-bottom: 10vh;
+}
+.device__block_inner {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+.device__img {
+    align-self: center;
+}
+.device__telephone {
+    display: block;
+    width: auto;
+    height: 62vh;
+}
+.device__picture {
+    display: flex;
+    justify-content: center;
+}
+.device__caption {
+    color: #ffffff;
+    font-size: 2rem;
+}
+.device__text {
+    color: #ffffff;
+    line-height: 1.5;
+}
+.device__img_outer {
+    margin-bottom: 40px;
+}
+.device__caption_outer {
+    margin-bottom: 10px;
+}
+.foto {
+    height: 100vh;
+    background: url(../../img/background/elements/element.png)  0% 0% no-repeat, 
+    url(../../img/background/elements/element.png)  100% 100% no-repeat, 
+    #dedede;
+}
+.team {
+    height: 100vh;
+    background: url(../../img/background/people.jpg) center round;
+}
+.team__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.team__name {
+    color: #c5e9f4;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.team__position {
+    color: #a2dcfd;
+    font-size: 1.1rem;
+    text-align: center;
+}
+.team__text {
+    color: #ffffff;
+    font-size: 1rem;
+    text-align: center;
+}
+.team__foto_outer {
+    margin-bottom: 45px;
+}
+.team__name_outer {
+    margin-bottom: 23px;
+}
+.team__position_outer {
+    margin-bottom: 30px;
+}
+.team__position_head {
+    margin-bottom: 50px;
+}

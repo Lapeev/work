@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Montserrat Black';
+    src: url(../../fonts/montserrat/Montserrat-Black.ttf);
+}
+@font-face {
+    font-family: 'Helvetica Light';
+    src: url(../../fonts/helvetica/HelveticaNeueCyr-Light.ttf);
+}
+@font-face {
+    font-family: 'Helvetica Medium';
+    src: url(../../fonts/helvetica/HelveticaNeueCyr-Medium.ttf);
+}
+@font-face {
+    font-family: 'Helvetica Bold';
+    src: url(../../fonts/helvetica/HelveticaNeueCyr-Bold.ttf);
+}
+@font-face {
+    font-family: 'Helvetica Roman';
+    src: url(../../fonts/helvetica/HelveticaNeueCyr-Roman.ttf);
+}
+@font-face {
+    font-family: 'Helvetica Black';
+    src: url(../../fonts/helvetica/HelveticaNeueCyr-Black.ttf);
+}
+@font-face {
+    font-family: 'Futura Book';
+    src: url(../../fonts/futura/FuturaNewBook.otf);
+}

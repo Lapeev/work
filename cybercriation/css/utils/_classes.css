@@ -1,0 +1,55 @@
+[class*="text__"] {
+    color: #2e2e2e;
+}
+.text__uppercase {
+    text-transform: uppercase;
+}
+.text__first-letter {
+    display: block;
+}
+.text__capitalize {
+    text-transform: capitalize;
+}
+.text__first-letter::first-letter {
+    text-transform: uppercase;
+}
+.text__helvetica_light {
+    font-family: 'Helvetica Light';
+}
+.text__helvetica_medium {
+    font-family: 'Helvetica Medium';
+}
+.text__helvetica_roman {
+    font-family: 'Helvetica Roman';
+}
+.text__helvetica_bold {
+    font-family: 'Helvetica Bold';
+}
+.text__helvetica_black {
+    font-family: 'Helvetica Black';
+}
+.text__futura_book {
+    font-family: 'Futura Book';
+}
+.text__montserrat_black {
+    font-family: 'Montserrat Black';
+}
+.grid {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.button {
+    padding: 18px 48px 18px 48px;
+    border-radius: 30px;
+    background: #69b0c2;
+    color: #ffffff;
+    white-space: nowrap;
+}
+.button__hover:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+.center {
+    display: flex;
+    align-items: center;
+}

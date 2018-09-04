@@ -1,0 +1,36 @@
+@media only screen and (min-width: 1170px) {
+    main {
+        padding-top: 154px;
+    }
+    .news__sliders {
+        height: 541px;
+    }
+    .news__label {
+        height: 14px;
+        width: 14px;
+        bottom: 42px;
+    }
+    .news__label_after::after {
+        margin: -3px;
+    }
+    .news__header {
+        font-size: 21px;
+        bottom: 125px;
+        width: 700px;
+        margin-left: -5px;
+    }
+    .news__text {
+        font-size: 15px;
+        bottom: 79px;
+        width: 700px;
+        transform: translate(-50%, 0);
+    }
+    .news__date {
+        display: inline-block;
+        font-size: 13px;
+        margin-left: 259px;
+    }
+    .news__img {
+        height: 541px;
+    }
+}
